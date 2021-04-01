@@ -136,14 +136,13 @@ npx create-react-app {app이름}
 
 ##### :: node.modules / package.json / .gitignore
 
-![image-20210325203809615](C:\Users\LG\AppData\Roaming\Typora\typora-user-images\image-20210325203809615.png)  
+![image-20210325203809615](https://user-images.githubusercontent.com/61822411/112605132-4e7dcc00-8e5a-11eb-94f6-7079a00b6d43.png) 
 
 **1) node.modules**
 
 - CRA 를 구성하는 모든 **패키지 소스 코드가 존재**하는 폴더
 
-![image-20210325204045968](C:\Users\LG\AppData\Roaming\Typora\typora-user-images\image-20210325204045968.png) 
-
+![image-20210325204045968](https://user-images.githubusercontent.com/61822411/112605134-4f166280-8e5a-11eb-881a-a879e11e1273.png) 
 
 
 **2) package.json**
@@ -154,7 +153,7 @@ npx create-react-app {app이름}
 
 - `"dependencies"`
 
-  ![image-20210325204316937](C:\Users\LG\AppData\Roaming\Typora\typora-user-images\image-20210325204316937.png) 
+  ![image-20210325204316937](https://user-images.githubusercontent.com/61822411/112605136-4f166280-8e5a-11eb-952b-50dfe42980f4.png)  
 
   - **리액트를 사용하기 위한 모든 패키지 리스트, 버전 확인 가능**
   - 실제 코드는 `node.modules` 폴더에 존재
@@ -171,7 +170,7 @@ npx create-react-app {app이름}
 
     - 이때, github 에 올릴 때, node.modules 는 올리면 안된다. (불필요한 용량 차지),
 
-      ![image-20210325204658042](C:\Users\LG\AppData\Roaming\Typora\typora-user-images\image-20210325204658042.png) 
+      ![image-20210325204658042](https://user-images.githubusercontent.com/61822411/112605137-4faef900-8e5a-11eb-8126-37d08ae27ba0.png) 
 
     - .gitignore 파일에 github 에 올리고 싶지 않은 폴더와 파일을 작성할 수 있다.
 
@@ -189,7 +188,7 @@ npx create-react-app {app이름}
 
 - `"scripts"`
 
-  ![image-20210325205222605](C:\Users\LG\AppData\Roaming\Typora\typora-user-images\image-20210325205222605.png) 
+  ![image-20210325205222605](https://user-images.githubusercontent.com/61822411/112605129-4de53580-8e5a-11eb-85a7-5357885b5af9.png) 
 
   - `run` : 프로젝트를 development mode(개발 모드) 실행을 위한 명령어. 
 
