@@ -125,6 +125,20 @@ Q. ROUTER1의 DHCP네트워크를 192.168.100.0/24 서버이름은 'icqa'로 설
 
 
 
+## 라우터 기본 네트워크 설정
+
+```
+>en
+>conf t
+>ip default-network 192.168.10.0		: 기본 네트워크 설정
+>end
+>copy r s
+```
+
+
+
+
+
 ## 텔넷 패스워드 설정
 
 Q. ROUTER1 Telnet에 접근하는 Password를 icqa로 설정하고 로그인하세요.
@@ -221,6 +235,25 @@ Q. Hostname을 network2로 변경하고 console 0의 password를 route5로 변�
 
 
 
+## 정적 라우팅
+
+```
+>en
+>conf t
+>int se 2/0
+>ip add ip sub
+>no shutdown
+>exit
+>ip route [목적지 대표 IP] 255.255.0.0 [R2 serial 게이트 웨이]
+>exit
+>exit
+>copy r s
+```
+
+
+
+
+
 ## 라우터 확인문제 유형 분석
 
 Q. 인터페이스 정보를 확인하고 저장하시오.
@@ -262,4 +295,6 @@ Q. 프로세스 정보를 확인하고 저장하시오.
 >show process
 >copy r s
 ```
+
+Q. 라우터2의 소프트웨어 버전과 IOS버전 등을 확인하시오.
 
